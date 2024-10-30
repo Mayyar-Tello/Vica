@@ -1,0 +1,65 @@
+/* FAQs Section */
+#FAQs{
+    padding: 56px 70px 0;
+    h1{
+        font-family: "Exo", sans-serif;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 39px;
+    }
+    .Cards{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        display: grid;
+        grid-template-columns: repeat(2 , minmax(280px , 50%));
+        justify-content: space-between;
+        align-items: start;
+        column-gap: 38px;
+        .Mass-Gap{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            .Card,.Card3{
+                min-height: 64px;
+                padding: 20px 30px;
+                background-color: #F5F5F5;
+                border-radius: 8px;
+                h5{
+                    font-family: "Exo", sans-serif;
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 20px;
+                }
+                i{
+                    font-size: 12px;
+                }
+            }
+            .Card{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .Card3{
+                div{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    h5{
+                        color: #FF782D;
+                    }
+                }
+                p{
+                    padding-top: 20px;
+                    font-family: "Jost", sans-serif;
+                    font-size: 18px;
+                    line-height: 27px;
+                    color: #555555;
+                }
+            }
+        }
+    }
+}
+/* Footer*/
+footer{
+    margin-top: 0 !important;
+}

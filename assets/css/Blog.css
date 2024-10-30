@@ -1,0 +1,43 @@
+/* nav */
+nav{
+    ul{
+        .Blog{
+            background-color: #F5F5F5;
+            a{
+                color: #FF782D;
+            }
+        }
+    }
+}
+/* Courses-Blog Section */
+#Courses-Blog{
+    .Cards{
+        .Card{
+            h4{
+                padding: 20px 20px 16px;
+            }
+            .Date{
+                padding: 0 20px;
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                svg{
+                    width: 15px;
+                    height: 16px;
+                }
+                p{
+                    font-family: "Jost", sans-serif;
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+            }
+            .Description{
+                padding: 20px;
+                font-family: "Jost", sans-serif;
+                font-size: 18px;
+                font-weight: 400;
+                list-style: 27px;
+            }
+        }
+    }
+}

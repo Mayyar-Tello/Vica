@@ -1,0 +1,88 @@
+/* Login-Register-Section */
+#Login-Register{
+    padding: 56px 70px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 30px;
+    .Login,.Register{
+        padding: 30px;
+        border: 1px solid #EAEAEA;
+        border-radius: 20px;
+        h2{
+            font-family: "Exo", sans-serif;
+            font-size: 32px;
+            font-weight: 600;
+            line-height: 39px;
+        }
+        form{
+            position: relative;
+            .Inputs-Specs{
+                width: 100%;
+                height: 48px;
+                border: 1px solid #9D9D9D;
+                border-radius: 8px;
+            }
+            .Email{
+                margin: 30px 0 20px;
+            }
+            ::placeholder{
+                padding-left: 16px;
+                color: #9D9D9D;
+            }
+            svg{
+                width: 22px;
+                position: absolute;
+                right: 15px;
+            }
+        }
+    }
+    .Login{
+        width: 49.67%;
+        form{
+            .Password{
+                margin-bottom: 20px;
+            }
+            .First-Svg-Pos{
+                top: 40%;
+            }
+            .Check-Content{
+                display: flex;
+                align-items: center;
+                gap: 4px;
+            }
+            .Orange-Btn{
+                width: 100%;
+                margin: 20px 0;
+            }
+        }
+        a,label{
+            font-family: "Jost", sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            list-style: 27px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    }
+    .Register{
+        width: 47.71%;
+        form{
+            .Password{
+                margin: 20px 0;
+            }
+            .Second-Svg-Pos{
+                top: 51.5%;
+            }
+            .Third-Svg-Pos{
+                top: 71%;
+            }
+            .Orange-Btn{
+                width: 100%;
+                margin-top: 20px;
+            }
+        }
+    }
+}
